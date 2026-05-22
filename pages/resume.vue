@@ -34,11 +34,12 @@
           </div>
         </div>
         <div class="md:col-span-5 relative">
-          <div class="aspect-square glass-panel rounded-full overflow-hidden border-2 border-primary/20 relative z-10">
-            <img alt="Jayden Hluszko" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="../assets/images/me.webp">
+          <div class="relative group">
+            <div class="absolute -inset-1 bg-gradient-to-r from-primary to-secondary-container rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-1000"></div>
+            <div class="relative bg-surface-container-highest rounded-2xl aspect-square overflow-hidden border border-border-subtle">
+              <img src="~/assets/images/me.webp" alt="Jayden Hluszko" class="w-full h-full object-cover object-center" />
+            </div>
           </div>
-          <div class="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 blur-[100px]"></div>
-          <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary-container/10 blur-[100px]"></div>
         </div>
       </section>
 
@@ -248,7 +249,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 useHead({
   title: 'Resume | Jayden Hluszko - Senior Frontend Engineer'
 })

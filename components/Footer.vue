@@ -8,7 +8,6 @@
     <div class="flex items-center gap-8">
       <a class="text-on-surface-variant text-sm hover:text-primary transition-colors" href="/#work">Work</a>
       <a class="text-on-surface-variant text-sm hover:text-primary transition-colors" href="/#about">About</a>
-      <a class="text-on-surface-variant text-sm hover:text-primary transition-colors" href="#">Privacy</a>
     </div>
   </footer>
 </template>

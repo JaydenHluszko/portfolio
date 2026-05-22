@@ -32,11 +32,11 @@
       <section class="mb-16">
         <h3 class="font-code-label text-xs text-on-surface uppercase tracking-widest text-outline mb-4">Technology Architecture</h3>
         <div class="flex flex-wrap gap-2">
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium uppercase">TypeScript</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium uppercase">Angular</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium uppercase">Azure AI</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium uppercase">Node.js</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium uppercase">PDF.js</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">TypeScript</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Angular</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Azure AI</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Node.js</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">PDF.js</span>
         </div>
       </section>
 
@@ -165,7 +165,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import LetsConnect from '../../components/LetsConnect.vue';
 
 useHead({

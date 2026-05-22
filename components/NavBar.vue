@@ -1,15 +1,11 @@
 <template>
   <component :is="route.path === '/' ? 'header' : 'nav'" class="fixed top-0 left-0 right-0 z-50 glass-fill border-b border-border-subtle backdrop-blur-md">
-    <div class="max-w-container-max mx-auto px-margin-desktop py-4 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="text-primary">
-          <svg class="size-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
-          </svg>
-        </div>
-        <NuxtLink to="/" class="text-on-surface text-lg font-bold tracking-tight uppercase">Jayden Hluszko</NuxtLink>
-      </div>
-      <nav class="hidden md:flex items-center gap-8">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4 flex items-center justify-between">
+      <NuxtLink to="/" class="flex items-center gap-3">
+        <img src="/assets/images/logo.png" alt="Logo" class="size-6">
+        <span class="text-on-surface text-lg font-bold tracking-tight uppercase hidden sm:block">Jayden Hluszko</span>
+      </NuxtLink>
+      <nav class="flex items-center gap-8">
         <template v-if="route.path !== '/'">
           <NuxtLink to="/" class="text-on-surface-variant text-sm font-medium hover:text-primary transition-colors flex items-center gap-1 h-10">
             <span class="material-symbols-outlined text-[18px]">arrow_back</span>Back to Portfolio

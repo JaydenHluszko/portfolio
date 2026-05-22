@@ -32,12 +32,12 @@
       <section class="mb-16 border-t border-border-subtle pt-8">
         <h3 class="font-code-label text-xs text-on-surface uppercase tracking-widest text-outline mb-4">Technology Architecture</h3>
         <div class="flex flex-wrap gap-2">
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">Angular</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">.NET MVC</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">Bootstrap 5</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">CSS3 Variables</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">Storybook</span>
-          <span class="bg-surface-elevated px-4 py-2 border border-border-subtle rounded text-body-sm font-medium">Figma Tokens</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Angular</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">.NET MVC</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Bootstrap 5</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">CSS3 Variables</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Storybook</span>
+          <span class="px-3 py-1 bg-surface-container-high rounded text-code-label border border-border-subtle text-on-surface">Figma Tokens</span>
         </div>
       </section>
 
@@ -202,7 +202,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import LetsConnect from '../../components/LetsConnect.vue';
 
 useHead({

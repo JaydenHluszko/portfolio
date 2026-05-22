@@ -8,18 +8,18 @@
             <span class="size-2 rounded-full bg-green-500 animate-pulse"></span>
             <span class="text-code-label uppercase text-slate-text">Open for Collaboration</span>
           </div>
-          <h1 class="text-display-lg-mobile md:text-display-lg text-on-surface">Jayden Hluszko — Senior Frontend Engineer bridging the gap between <span class="text-primary">Angular systems</span> and business ROI.</h1>
+          <h1 class="text-display-lg-mobile md:text-display-lg text-on-surface">Jayden Hluszko — Senior Frontend Engineer bridging the gap between <span class="text-primary">Angular & Vue systems</span> and business ROI.</h1>
           <p class="text-headline-md text-on-surface-variant max-w-xl">
             Currently building scalable, themeable architectures at ChannelAssist. Focused on high-performance web applications and enterprise design systems.
           </p>
           <div class="flex flex-wrap gap-4">
-            <button class="h-14 px-8 bg-primary text-on-primary text-base font-bold rounded-xl hover:scale-[1.02] transition-transform flex items-center gap-2">
+            <a href="#work" class="h-14 px-8 bg-primary text-on-primary text-base font-bold rounded-xl hover:scale-[1.02] transition-transform flex items-center gap-2">
               View Case Studies
               <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
-            </button>
-            <button class="h-14 px-8 border border-border-subtle text-on-surface text-base font-bold rounded-xl hover:bg-surface-container-high transition-colors">
+            </a>
+            <a href="#about" class="h-14 px-8 border border-border-subtle text-on-surface text-base font-bold rounded-xl hover:bg-surface-container-high transition-colors flex items-center">
               About Me
-            </button>
+            </a>
           </div>
         </div>
         <div class="relative group">
@@ -83,10 +83,6 @@
               </div>
               <div class="flex flex-wrap gap-4">
                 <button class="h-10 px-5 bg-primary text-on-primary text-sm font-bold rounded hover:brightness-110" @click="$router.push('/case-studies/multi-tenant-design-system')">View Case Study</button>
-                <button class="h-10 px-5 border border-border-subtle text-on-surface text-sm font-bold rounded hover:bg-surface-container-high flex items-center gap-2">
-                  <span class="material-symbols-outlined text-sm" data-icon="code">code</span>
-                  Repo
-                </button>
               </div>
             </div>
           </div>
@@ -112,10 +108,6 @@
               </div>
               <div class="flex flex-wrap gap-4">
                 <button class="h-10 px-5 bg-primary text-on-primary text-sm font-bold rounded hover:brightness-110" @click="$router.push('/case-studies/growth-driven-redesign')">View Case Study</button>
-                <button class="h-10 px-5 border border-border-subtle text-on-surface text-sm font-bold rounded hover:bg-surface-container-high flex items-center gap-2">
-                  <span class="material-symbols-outlined text-sm" data-icon="code">code</span>
-                  Repo
-                </button>
               </div>
             </div>
           </div>
@@ -141,10 +133,6 @@
               </div>
               <div class="flex flex-wrap gap-4">
                 <button class="h-10 px-5 bg-primary text-on-primary text-sm font-bold rounded hover:brightness-110" @click="$router.push('/case-studies/ai-claim-builder')">View Case Study</button>
-                <button class="h-10 px-5 border border-border-subtle text-on-surface text-sm font-bold rounded hover:bg-surface-container-high flex items-center gap-2">
-                  <span class="material-symbols-outlined text-sm" data-icon="code">code</span>
-                  Repo
-                </button>
               </div>
             </div>
           </div>
@@ -194,32 +182,13 @@
 
     <!-- Contact Section -->
     <section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-32 text-center pb-12" id="contact">
-      <div class="glass-card p-8 md:p-16 rounded-3xl relative overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none"></div>
-        <h2 class="text-4xl md:text-5xl font-black text-on-surface mb-6">Let's Connect</h2>
-        <p class="text-lg md:text-xl text-on-surface-variant mb-12 max-w-2xl mx-auto">
-          Whether you're looking for architectural guidance, a senior frontend lead, or a discussion on building for scale — I'm always open to new challenges.
-        </p>
-        <div class="flex flex-col md:flex-row items-center justify-center gap-6">
-          <a class="h-14 px-10 bg-primary text-on-primary text-base font-bold rounded-xl flex items-center gap-3 hover:scale-105 transition-transform w-full md:w-auto" href="mailto:hello@jaydenhluszko.com">
-            <span class="material-symbols-outlined" data-icon="mail">mail</span>
-            Email Me
-          </a>
-          <div class="flex items-center gap-4">
-            <a class="size-14 border border-border-subtle rounded-xl flex items-center justify-center hover:bg-surface-container-high transition-colors" href="#">
-              <svg class="size-6 text-on-surface" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
-            </a>
-            <a class="size-14 border border-border-subtle rounded-xl flex items-center justify-center hover:bg-surface-container-high transition-colors" href="#">
-              <span class="material-symbols-outlined text-on-surface" data-icon="public">public</span>
-            </a>
-          </div>
-        </div>
-      </div>
+      <LetsConnect />
     </section>
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+import LetsConnect from '../components/LetsConnect.vue';
 useHead({
   title: 'Jayden Hluszko | Senior Frontend Engineer'
 })
