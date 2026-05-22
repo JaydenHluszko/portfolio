@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-glass-fill backdrop-blur-[12px] border border-border-subtle;
+  }
+
+  .glass-card {
+    background: rgba(38, 38, 38, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .interactive-glow:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+    /* primary color glow */
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* The starting state for entering and the ending state for leaving */
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(5px);
+  /* Optional: adds a soft "dreamy" focus shift */
+  transform: translateY(10px);
+}
+
+/* The active state during the transition */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* The final state when entered / starting state when leaving */
+.page-enter-to,
+.page-leave-from {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

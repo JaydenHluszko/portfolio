@@ -1,0 +1,1 @@
+import{a as t,o as n,e as o,m as r}from"./EsWe-ScA.js";const s={},c={class:"inline-flex items-center justify-center px-2 py-1 rounded-sm bg-surface-elevated border border-border-subtle text-[13px] font-mono font-medium tracking-[0.05em] text-slate-text"};function a(e,_){return n(),o("span",c,[r(e.$slots,"default")])}const l=t(s,[["render",a]]);export{l as _};
