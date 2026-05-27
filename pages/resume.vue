@@ -58,7 +58,7 @@
           <article class="glass-panel p-8 rounded-xl relative">
             <div class="flex justify-between items-start mb-6">
               <div>
-                <h3 class="font-headline-md text-headline-md text-primary mb-1">Front-End Developer</h3>
+                <h3 class="font-headline-md text-headline-md text-primary mb-1">Senior Frontend Engineer</h3>
                 <p class="text-on-surface font-semibold">ChannelAssist</p>
               </div>
               <div class="text-right">
@@ -68,11 +68,11 @@
             <ul class="space-y-4 text-on-surface-variant text-body-sm list-none">
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Spearheaded the front-end development of a global sales engagement web app using Angular and TypeScript, architecting scalable UI components and integrating RESTful APIs.</span>
+                <span>Spearheaded the frontend development of a global sales engagement web app using ASP.NET MVC and Angular, architecting scalable UI components, managing data flows with services, integrating RESTful APIs, and refactoring legacy code.</span>
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Optimized performance against Core Web Vitals (LCP, CLS, FCP), achieving 15% faster load times through Lighthouse audits and legacy code refactoring.</span>
+                <span>Optimized data-dense interfaces against Core Web Vitals (LCP, CLS, FCP), leveraging rapid, iterative performance testing to compress load times by 15%.</span>
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
@@ -84,7 +84,15 @@
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Applied AI-assisted tools for refactoring, diagnostics, and documentation, accelerating delivery and shaping team best practices.</span>
+                <span>Partnered with QA teams to define regression and smoke testing parameters, streamlining the release lifecycle and drastically reducing production defects.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
+                <span>Mentored junior developers, resolved blockers, and delivered features ahead of deadlines in a fast‑paced SaaS environment.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="material-symbols-outlined text-primary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
+                <span>Embedded advanced AI-driven development workflows (including Github Copilot and Gemini) into daily engineering tasks that accelerated feature prototyping, code diagnostics, and testing coverage to increase team sprint velocity.</span>
               </li>
             </ul>
           </article>
@@ -93,7 +101,7 @@
           <article class="glass-panel p-8 rounded-xl">
             <div class="flex justify-between items-start mb-6">
               <div>
-                <h3 class="font-headline-md text-headline-md text-on-surface mb-1">Full Stack Developer & Marketing Manager</h3>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-1 text-secondary">Full Stack Engineer & Marketing Manager</h3>
                 <p class="text-on-surface font-semibold">Bagal – Immigration and Legal Services</p>
               </div>
               <div class="text-right">
@@ -103,20 +111,25 @@
             <ul class="space-y-4 text-on-surface-variant text-body-sm list-none">
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-secondary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Directed the end-to-end redesign of the company’s website, embedding accessibility (WCAG 2.1, AODA) and compliance from the ground up.</span>
+                <span>Drove a 450% surge in organic traffic by executing an end-to-end public websiterebuild using Vue.js and Nuxt SSR, embedding strict WCAG 2.1 and AODA compliance frameworks.</span>
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-secondary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Rebuilt public-facing website with Vue.js, driving a 450% increase in organic traffic within 8 months.</span>
+                <span>Demonstrated absolute ownership over the development of a secure internal ASP.NET MVC CMS, centralizing client data and streamlining how paralegals track legal matters while ensuring the protection of sensitive client data.</span>
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-secondary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Developed a secure CMS in .NET MVC and C# to manage sensitive client records.</span>
+                <span>Applied conversion rate optimization (CRO) and funnel analysis (Google Analytics, Mixpanel, Amplitude) to identify drop‑off points and boost lead generation.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="material-symbols-outlined text-secondary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
+                <span>Balanced dual responsibilities in engineering and marketing, demonstrating versatility and ownership across product, technology, and growth strategy.</span>
               </li>
             </ul>
             <div class="mt-6 flex items-center gap-2">
               <span class="font-code-label text-[11px] bg-secondary-container/20 text-secondary border border-secondary-container/30 px-2 py-0.5 rounded uppercase tracking-wider">Vue.js</span>
-              <span class="font-code-label text-[11px] bg-secondary-container/20 text-secondary border border-secondary-container/30 px-2 py-0.5 rounded uppercase tracking-wider">.NET MVC</span>
+              <span class="font-code-label text-[11px] bg-secondary-container/20 text-secondary border border-secondary-container/30 px-2 py-0.5 rounded uppercase tracking-wider">Nuxt SSR</span>
+              <span class="font-code-label text-[11px] bg-secondary-container/20 text-secondary border border-secondary-container/30 px-2 py-0.5 rounded uppercase tracking-wider">ASP.NET MVC</span>
               <span class="font-code-label text-[11px] bg-secondary-container/20 text-secondary border border-secondary-container/30 px-2 py-0.5 rounded uppercase tracking-wider">SEO</span>
             </div>
           </article>
@@ -125,7 +138,7 @@
           <article class="glass-panel p-8 rounded-xl">
             <div class="flex justify-between items-start mb-6">
               <div>
-                <h3 class="font-headline-md text-headline-md text-on-surface mb-1">Web Developer</h3>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-1 text-tertiary">Full Stack Engineer & Consultant</h3>
                 <p class="text-on-surface font-semibold">Freelance</p>
               </div>
               <div class="text-right">
@@ -135,7 +148,7 @@
             <ul class="space-y-4 text-on-surface-variant text-body-sm list-none">
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-tertiary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
-                <span>Led the design, development and execution of websites for multiple clients using Vue.js, NUXT, MongoDB, ExpressJS, Netlify and WordPress.</span>
+                <span>Led the design, development, and execution of websites for multiple clients using Vue.js, Nuxt SSR, MongoDB, ExpressJS, Netlify and WordPress.</span>
               </li>
               <li class="flex gap-3">
                 <span class="material-symbols-outlined text-tertiary shrink-0 text-[18px]" data-icon="check_circle">check_circle</span>
@@ -156,51 +169,70 @@
             <div class="py-4 border-b border-border-subtle">
               <div class="font-code-label text-primary text-[11px] mb-4 tracking-widest uppercase">Languages & Frameworks</div>
               <div class="flex flex-wrap gap-x-4 gap-y-2 text-on-surface text-[13px]">
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Angular</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Vue.js</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Pinia</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Nuxt SSR</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Angular</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> TypeScript</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> JavaScript (ES6+)</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> NUXT</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> CSS3 / SCSS</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> .NET (C#)</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> ASP.NET (C#)</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> HTML5</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> CSS3</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> MongoDB</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> SQL</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-primary/40"></span> Tailwind</span>                
               </div>
             </div>
             <!-- Software & Tools -->
             <div class="py-4 border-b border-border-subtle">
-              <div class="font-code-label text-tertiary text-[11px] mb-4 tracking-widest uppercase">Software & Tools</div>
+              <div class="font-code-label text-secondary text-[11px] mb-4 tracking-widest uppercase">Software & Tools</div>
               <div class="flex flex-wrap gap-x-4 gap-y-2 text-on-surface text-[13px]">
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> AI Integration</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Git</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Azure DevOps</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> AWS Amplify</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Adobe Suite</span>
-                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Figma</span>
                 <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Netlify</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Node.js</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Adobe Creative Suite</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Google Antigravity IDE</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Visual Studio</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Google Analytics</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Vite</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Webpack</span>
+                <span class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-tertiary/40"></span> Figma</span>
               </div>
             </div>
             <!-- Additional Strengths -->
             <div class="py-4 border-b border-border-subtle">
-              <div class="font-code-label text-secondary text-[11px] mb-4 tracking-widest uppercase">Additional Strengths</div>
+              <div class="font-code-label text-tertiary text-[11px] mb-4 tracking-widest uppercase">Additional Strengths</div>
               <div class="space-y-2">
                 <div class="flex justify-between items-center text-[13px]">
-                  <span class="text-on-surface">Accessibility (WCAG)</span>
-                  <span class="text-secondary font-bold">Expert</span>
+                  <span class="text-on-surface">SaaS</span>
                 </div>
                 <div class="flex justify-between items-center text-[13px]">
-                  <span class="text-on-surface">Performance / SEO</span>
-                  <span class="text-secondary font-bold">Advanced</span>
+                  <span class="text-on-surface">Agile/Scrum</span>
+                </div>
+                <div class="flex justify-between items-center text-[13px]">
+                  <span class="text-on-surface">Search Engine Optimization (SEO)</span>
+                </div>
+                <div class="flex justify-between items-center text-[13px]">
+                  <span class="text-on-surface">Responsive Design</span>
                 </div>
                 <div class="flex justify-between items-center text-[13px]">
                   <span class="text-on-surface">CI / CD Pipelines</span>
-                  <span class="text-secondary font-bold">Advanced</span>
                 </div>
+                <div class="flex justify-between items-center text-[13px]">
+                  <span class="text-on-surface">Accessibility (WCAG/AODA)</span>
+                </div>                
+                <div class="flex justify-between items-center text-[13px]">
+                  <span class="text-on-surface">Conversion Rate Optimization (CRO)</span>
+                </div>                
               </div>
             </div>
             <!-- Currently Learning -->
             <div class="mt-4">
               <div class="font-code-label text-primary text-[11px] mb-2 tracking-widest uppercase">Continuous Dev</div>
               <div class="text-[12px] font-medium text-primary/80 leading-relaxed">
-                React.js / Next.js • Cypress • AI Integration (Copilot)
+                React.js / Next.js • Cypress
               </div>
             </div>
           </div>
