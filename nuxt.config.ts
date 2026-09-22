@@ -1,16 +1,37 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
-  css: ['~/assets/css/tailwind.css'],
-  compatibilityDate: "2024-05-14",
-  app: {
-    head: {
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap' }
-      ]
+    compatibilityDate: '2024-11-01',
+    devtools: { enabled: true },
+    modules: [
+        '@vueuse/motion/nuxt',
+        '@nuxtjs/google-fonts'
+    ],
+    vite: {
+        plugins: [
+            tailwindcss(),
+        ],
     },
-    pageTransition: { name: 'page', mode: 'out-in' }
-  }
+    googleFonts: {
+        families: {
+            'Newsreader': [400, 500, 600, 700],
+            'Plus Jakarta Sans': [400, 500, 600, 700]
+        },
+        display: 'swap',
+        download: true
+    },
+    css: ['~/assets/css/main.css'],
+    app: {
+        head: {
+            link: [
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            ]
+        },
+        pageTransition: { name: 'fade', mode: 'out-in' }
+    },
+    runtimeConfig: {
+        public: {
+            email: process.env.EMAIL || ''
+        }
+    }
 })

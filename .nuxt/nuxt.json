@@ -1,9 +1,9 @@
 {
-  "_hash": "7agl5f9rJsDF8c1KR6Y5hpNp7qcPmF9kcqdX5LFi7lo",
+  "_hash": "9g4IRnBxZtWEEs0adfw7oGKzzKiFOZ3zt4uVYy17Whk",
   "project": {
-    "rootDir": "D:/Documents/Jayden/Jayden-Portfolio"
+    "rootDir": "D:/Websites/Portfolio/portfolio"
   },
   "versions": {
-    "nuxt": "3.21.5"
+    "nuxt": "4.5.2"
   }
 }

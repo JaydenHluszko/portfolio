@@ -14,12 +14,21 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
-  Button: typeof import("../../components/Button.vue")['default']
+  Breadcrumbs: typeof import("../../components/Breadcrumbs.vue")['default']
+  BtnPill: typeof import("../../components/BtnPill.vue")['default']
+  CardFlowchart: typeof import("../../components/CardFlowchart.vue")['default']
+  CardPhilosophy: typeof import("../../components/CardPhilosophy.vue")['default']
+  CardProblem: typeof import("../../components/CardProblem.vue")['default']
+  CardProject: typeof import("../../components/CardProject.vue")['default']
+  Contact: typeof import("../../components/Contact.vue")['default']
+  EngineeringReflections: typeof import("../../components/EngineeringReflections.vue")['default']
+  Flowchart: typeof import("../../components/Flowchart.vue")['default']
   Footer: typeof import("../../components/Footer.vue")['default']
-  LetsConnect: typeof import("../../components/LetsConnect.vue")['default']
-  NavBar: typeof import("../../components/NavBar.vue")['default']
-  ProjectCard: typeof import("../../components/ProjectCard.vue")['default']
-  TechChip: typeof import("../../components/TechChip.vue")['default']
+  Header: typeof import("../../components/Header.vue")['default']
+  ProblemNarrative: typeof import("../../components/ProblemNarrative.vue")['default']
+  Projects: typeof import("../../components/Projects.vue")['default']
+  QuickFacts: typeof import("../../components/QuickFacts.vue")['default']
+  Tag: typeof import("../../components/Tag.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -30,8 +39,11 @@ interface _GlobalComponents {
   NuxtLoadingIndicator: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
   NuxtTime: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-time.vue")['default']
   NuxtRouteAnnouncer: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
+  NuxtAnnouncer: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-announcer")['default']
   NuxtImg: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
   NuxtPicture: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
+  Motion: typeof import("@vueuse/motion")['MotionComponent']
+  MotionGroup: typeof import("@vueuse/motion")['MotionGroupComponent']
   NuxtPage: typeof import("../../node_modules/nuxt/dist/pages/runtime/page")['default']
   NoScript: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['NoScript']
   Link: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -43,12 +55,21 @@ interface _GlobalComponents {
   Html: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']
   Body: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
   NuxtIsland: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
-  LazyButton: LazyComponent<typeof import("../../components/Button.vue")['default']>
+  LazyBreadcrumbs: LazyComponent<typeof import("../../components/Breadcrumbs.vue")['default']>
+  LazyBtnPill: LazyComponent<typeof import("../../components/BtnPill.vue")['default']>
+  LazyCardFlowchart: LazyComponent<typeof import("../../components/CardFlowchart.vue")['default']>
+  LazyCardPhilosophy: LazyComponent<typeof import("../../components/CardPhilosophy.vue")['default']>
+  LazyCardProblem: LazyComponent<typeof import("../../components/CardProblem.vue")['default']>
+  LazyCardProject: LazyComponent<typeof import("../../components/CardProject.vue")['default']>
+  LazyContact: LazyComponent<typeof import("../../components/Contact.vue")['default']>
+  LazyEngineeringReflections: LazyComponent<typeof import("../../components/EngineeringReflections.vue")['default']>
+  LazyFlowchart: LazyComponent<typeof import("../../components/Flowchart.vue")['default']>
   LazyFooter: LazyComponent<typeof import("../../components/Footer.vue")['default']>
-  LazyLetsConnect: LazyComponent<typeof import("../../components/LetsConnect.vue")['default']>
-  LazyNavBar: LazyComponent<typeof import("../../components/NavBar.vue")['default']>
-  LazyProjectCard: LazyComponent<typeof import("../../components/ProjectCard.vue")['default']>
-  LazyTechChip: LazyComponent<typeof import("../../components/TechChip.vue")['default']>
+  LazyHeader: LazyComponent<typeof import("../../components/Header.vue")['default']>
+  LazyProblemNarrative: LazyComponent<typeof import("../../components/ProblemNarrative.vue")['default']>
+  LazyProjects: LazyComponent<typeof import("../../components/Projects.vue")['default']>
+  LazyQuickFacts: LazyComponent<typeof import("../../components/QuickFacts.vue")['default']>
+  LazyTag: LazyComponent<typeof import("../../components/Tag.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -59,8 +80,11 @@ interface _GlobalComponents {
   LazyNuxtLoadingIndicator: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']>
   LazyNuxtTime: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-time.vue")['default']>
   LazyNuxtRouteAnnouncer: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']>
+  LazyNuxtAnnouncer: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-announcer")['default']>
   LazyNuxtImg: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']>
   LazyNuxtPicture: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']>
+  LazyMotion: LazyComponent<typeof import("@vueuse/motion")['MotionComponent']>
+  LazyMotionGroup: LazyComponent<typeof import("@vueuse/motion")['MotionGroupComponent']>
   LazyNuxtPage: LazyComponent<typeof import("../../node_modules/nuxt/dist/pages/runtime/page")['default']>
   LazyNoScript: LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components")['NoScript']>
   LazyLink: LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Link']>

@@ -14,12 +14,21 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 
-export const Button: typeof import("../components/Button.vue")['default']
+export const Breadcrumbs: typeof import("../components/Breadcrumbs.vue")['default']
+export const BtnPill: typeof import("../components/BtnPill.vue")['default']
+export const CardFlowchart: typeof import("../components/CardFlowchart.vue")['default']
+export const CardPhilosophy: typeof import("../components/CardPhilosophy.vue")['default']
+export const CardProblem: typeof import("../components/CardProblem.vue")['default']
+export const CardProject: typeof import("../components/CardProject.vue")['default']
+export const Contact: typeof import("../components/Contact.vue")['default']
+export const EngineeringReflections: typeof import("../components/EngineeringReflections.vue")['default']
+export const Flowchart: typeof import("../components/Flowchart.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
-export const LetsConnect: typeof import("../components/LetsConnect.vue")['default']
-export const NavBar: typeof import("../components/NavBar.vue")['default']
-export const ProjectCard: typeof import("../components/ProjectCard.vue")['default']
-export const TechChip: typeof import("../components/TechChip.vue")['default']
+export const Header: typeof import("../components/Header.vue")['default']
+export const ProblemNarrative: typeof import("../components/ProblemNarrative.vue")['default']
+export const Projects: typeof import("../components/Projects.vue")['default']
+export const QuickFacts: typeof import("../components/QuickFacts.vue")['default']
+export const Tag: typeof import("../components/Tag.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -30,8 +39,11 @@ export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/n
 export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
 export const NuxtTime: typeof import("../node_modules/nuxt/dist/app/components/nuxt-time.vue")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
+export const NuxtAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/nuxt-announcer")['default']
 export const NuxtImg: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
 export const NuxtPicture: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
+export const Motion: typeof import("@vueuse/motion")['MotionComponent']
+export const MotionGroup: typeof import("@vueuse/motion")['MotionGroupComponent']
 export const NuxtPage: typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
 export const NoScript: typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
 export const Link: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -43,12 +55,21 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
-export const LazyButton: LazyComponent<typeof import("../components/Button.vue")['default']>
+export const LazyBreadcrumbs: LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
+export const LazyBtnPill: LazyComponent<typeof import("../components/BtnPill.vue")['default']>
+export const LazyCardFlowchart: LazyComponent<typeof import("../components/CardFlowchart.vue")['default']>
+export const LazyCardPhilosophy: LazyComponent<typeof import("../components/CardPhilosophy.vue")['default']>
+export const LazyCardProblem: LazyComponent<typeof import("../components/CardProblem.vue")['default']>
+export const LazyCardProject: LazyComponent<typeof import("../components/CardProject.vue")['default']>
+export const LazyContact: LazyComponent<typeof import("../components/Contact.vue")['default']>
+export const LazyEngineeringReflections: LazyComponent<typeof import("../components/EngineeringReflections.vue")['default']>
+export const LazyFlowchart: LazyComponent<typeof import("../components/Flowchart.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>
-export const LazyLetsConnect: LazyComponent<typeof import("../components/LetsConnect.vue")['default']>
-export const LazyNavBar: LazyComponent<typeof import("../components/NavBar.vue")['default']>
-export const LazyProjectCard: LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
-export const LazyTechChip: LazyComponent<typeof import("../components/TechChip.vue")['default']>
+export const LazyHeader: LazyComponent<typeof import("../components/Header.vue")['default']>
+export const LazyProblemNarrative: LazyComponent<typeof import("../components/ProblemNarrative.vue")['default']>
+export const LazyProjects: LazyComponent<typeof import("../components/Projects.vue")['default']>
+export const LazyQuickFacts: LazyComponent<typeof import("../components/QuickFacts.vue")['default']>
+export const LazyTag: LazyComponent<typeof import("../components/Tag.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
 export const LazyNuxtErrorBoundary: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -59,8 +80,11 @@ export const LazyNuxtLink: LazyComponent<typeof import("../node_modules/nuxt/dis
 export const LazyNuxtLoadingIndicator: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']>
 export const LazyNuxtTime: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-time.vue")['default']>
 export const LazyNuxtRouteAnnouncer: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']>
+export const LazyNuxtAnnouncer: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-announcer")['default']>
 export const LazyNuxtImg: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']>
 export const LazyNuxtPicture: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']>
+export const LazyMotion: LazyComponent<typeof import("@vueuse/motion")['MotionComponent']>
+export const LazyMotionGroup: LazyComponent<typeof import("@vueuse/motion")['MotionGroupComponent']>
 export const LazyNuxtPage: LazyComponent<typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']>
 export const LazyNoScript: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']>
 export const LazyLink: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']>
