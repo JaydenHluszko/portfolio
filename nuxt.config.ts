@@ -28,10 +28,5 @@ export default defineNuxtConfig({
             ]
         },
         pageTransition: { name: 'fade', mode: 'out-in' }
-    },
-    runtimeConfig: {
-        public: {
-            email: process.env.EMAIL || ''
-        }
     }
 })

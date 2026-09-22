@@ -1,8 +1,3 @@
-<script setup lang="ts">
-    const config = useRuntimeConfig();
-    const email = config.public.email;
-</script>
-
 <template>
     <section id="contact" class="py-space-2xl">
         <div class="w-full mx-auto relative">
@@ -18,7 +13,7 @@
                 </p>
                 <!-- CTA Action Hub -->
                 <div class="flex flex-col sm:flex-row items-center gap-space-sm w-full sm:w-auto justify-center mb-space-md">
-                    <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-[0_4px_16px_rgba(29,43,62,0.18)] transition-all duration-200" :href="`mailto:${email}`">
+                    <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-[0_4px_16px_rgba(29,43,62,0.18)] transition-all duration-200" href="mailto:jayden.hluszko@gmail.com">
                         <span class="material-symbols-rounded text-[18px]">mail</span>
                         <span>Get in touch</span>
                     </a>
