@@ -1,6 +1,6 @@
+/// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxtjs/google-fonts" />
 /// <reference types="@nuxt/telemetry" />
-/// <reference types="@nuxt/devtools" />
 /// <reference types="@vueuse/motion" />
 /// <reference path="types/nitro-layouts.d.ts" />
 /// <reference path="types/modules.d.ts" />

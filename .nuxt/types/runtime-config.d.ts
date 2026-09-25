@@ -11,8 +11,6 @@ import { RuntimeConfig as UserRuntimeConfig, PublicRuntimeConfig as UserPublicRu
    },
   }
   interface SharedPublicRuntimeConfig {
-   email: string,
-
    motion: any,
   }
 declare module '@nuxt/schema' {

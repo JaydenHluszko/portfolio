@@ -4,8 +4,8 @@
             <!-- Top Breathing Space & Atmospheric Accent -->
             <section class="relative pt-space-lg md:pt-space-xl pb-space-xl overflow-visible">
                 <!-- Fluid Radial Sunlit Halos -->
-                <div class="pointer-events-none absolute -top-16 -left-12 w-[600px] h-[600px] bg-secondary-fixed/40 rounded-full blur-[140px] -z-10"></div>
-                <div class="pointer-events-none absolute top-40 right-[-10%] w-[520px] h-[520px] bg-tertiary-fixed/30 rounded-full blur-[130px] -z-10"></div>
+                <div class="pointer-events-none absolute -top-16 -left-12 w-full h-full bg-secondary-fixed/40 rounded-full blur-[140px] -z-10"></div>
+                <div class="pointer-events-none absolute top-40 right-[-10%] w-full h-full bg-tertiary-fixed/30 rounded-full blur-[130px] -z-10"></div>
                 <div class="w-full max-w-6xl mx-auto flex flex-col items-start">
                     <!-- Hero Headline with Asymmetric Editorial Balance -->
                     <div class="max-w-5xl">
